@@ -55,7 +55,7 @@ const characters = {
       "status": "Alive",
       "image": "https://static.wikia.nocookie.net/lotr/images/4/43/Gimli.jpg",
       "quotes": [
-        "42!",
+        "I myself am sitting pretty on 43!",
         "Nobody tosses a dwarf!",
         "Certainty of death, small chance of success... What are we waiting for?"
       ]

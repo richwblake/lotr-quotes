@@ -1,3 +1,5 @@
+import Quote from "./Quote";
+
 const Character = ({ character }) => {
     const { name, race, image, weapon, status, quotes } = character;
 
@@ -5,8 +7,10 @@ const Character = ({ character }) => {
         <div className="character">
             <h2>{name}</h2>
             <img src={image}/>
-            <p>Race: <i>{race}</i></p>
-            <p>Weapon of choice: <b>{weapon}</b></p> 
+            <p>Race: {race}</p>
+            <p>Status: {status}</p>
+            <p>Weapon of choice: {weapon}</p> 
+            <Quote quotes={quotes} />
         </div>
     )
 };

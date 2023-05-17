@@ -2,7 +2,7 @@ const Header = () => {
     return (
         <div className="header">
             <h1>Lord of The Rings</h1>
-            <h3>Character Bios</h3>
+            <h2>Character Bios</h2>
         </div>
     )
 };

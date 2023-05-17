@@ -1,12 +1,22 @@
 html {
     background-color: black;
     color: gold;
+    font-family: 'Bilbo', cursive;
+}
+
+p, h2, h3 {
+    font-size: 1.8rem;
 }
 
 .header {
     margin: 0 auto;
     text-align: center;
+    font-size: 1.5rem;
     border-bottom: 1px dashed gold;
+}
+
+.header h2 {
+    font-size: 2rem;
 }
 
 .characters-flex {
@@ -21,4 +31,13 @@ html {
     border: 1px solid gold;
     border-radius: 7px;
     margin: 1rem;
+}
+
+.quote {
+    text-align: left;
+    font-size: 1.5rem;
+}
+
+.character h2 {
+    text-decoration: underline;
 }
