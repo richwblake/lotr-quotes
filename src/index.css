@@ -2,6 +2,7 @@ html {
     background-color: black;
     color: gold;
     font-family: 'Bilbo', cursive;
+    font-kerning: auto;
 }
 
 p, h2, h3 {
@@ -27,6 +28,7 @@ p, h2, h3 {
 }
 
 .character {
+    background-color: #0d0d0d;
     padding: 1.5rem;
     border: 1px solid gold;
     border-radius: 7px;
@@ -35,7 +37,7 @@ p, h2, h3 {
 
 .quote {
     text-align: left;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
 }
 
 .character h2 {
