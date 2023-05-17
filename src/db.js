@@ -1,10 +1,11 @@
-const quotes = {
+const characters = {
   "characters": [
     {
       "name": "Frodo Baggins",
       "race": "Hobbit",
       "weapon": "Sting",
       "status": "Alive",
+      "image": "https://static.wikia.nocookie.net/lotr/images/3/32/Frodo_%28FotR%29.png",
       "quotes": [
         "I will take the Ring, though I do not know the way.",
         "I wish the Ring had never come to me. I wish none of this had happened.",
@@ -16,6 +17,7 @@ const quotes = {
       "race": "Human",
       "weapon": "Andúril",
       "status": "Alive",
+      "image": "https://static.wikia.nocookie.net/lotr/images/c/cc/Aragorn_Close_up_-_FOTR.png",
       "quotes": [
         "A day may come when the courage of men fails, but it is not this day!",
         "I do not fear death. I fear not doing enough before I die.",
@@ -27,6 +29,7 @@ const quotes = {
       "race": "Maia",
       "weapon": "Glamdring",
       "status": "Alive",
+      "image": "https://static.wikia.nocookie.net/lotr/images/e/e7/Gandalf_the_Grey.jpg",
       "quotes": [
         "All we have to decide is what to do with the time that is given to us.",
         "You shall not pass!",
@@ -38,6 +41,7 @@ const quotes = {
       "race": "Elf",
       "weapon": "Bow and arrows",
       "status": "Alive",
+      "image": "https://static.wikia.nocookie.net/lotr/images/3/33/Legolas_-_in_Two_Towers.PNG",
       "quotes": [
         "A red sun rises. Blood has been spilled this night.",
         "I feel something. A slight tingle in my fingers. I think it's affecting me!",
@@ -49,8 +53,9 @@ const quotes = {
       "race": "Dwarf",
       "weapon": "Battle Axe",
       "status": "Alive",
+      "image": "https://static.wikia.nocookie.net/lotr/images/4/43/Gimli.jpg",
       "quotes": [
-        "I will be dead before I see the Ring in the hands of an Elf!",
+        "42!",
         "Nobody tosses a dwarf!",
         "Certainty of death, small chance of success... What are we waiting for?"
       ]
@@ -60,6 +65,7 @@ const quotes = {
       "race": "Human",
       "weapon": "Sword",
       "status": "Deceased",
+      "image": "https://static.wikia.nocookie.net/lotr/images/b/b4/Seanbean_boromir.jpg",
       "quotes": [
         "One does not simply walk into Mordor!",
         "I would have followed you, my brother... my captain... my king.",
@@ -71,8 +77,9 @@ const quotes = {
       "race": "Hobbit",
       "weapon": "Elven-made Blade",
       "status": "Alive",
+      "image": "https://static.wikia.nocookie.net/lotr/images/2/20/Sam.jpg",
       "quotes": [
-        "I can't carry it for you, but I can carry you!",
+        "If I take one more step, it'll be the furthest I've ever been from the Shire",
         "There's some good in this world, Mr. Frodo, and it's worth fighting for.",
         "It's like in the great stories, Mr. Frodo. The ones that really mattered."
       ]
@@ -80,8 +87,9 @@ const quotes = {
     {
       "name": "Gollum",
       "race": "Hobbit",
-      "weapon": "None",
+      "weapon": "Deception",
       "status": "Alive",
+      "image": "https://static.wikia.nocookie.net/lotr/images/e/e1/Gollum_Render.png",
       "quotes": [
         "My precious!",
         "We wants it, we needs it. Must have the precious!",
@@ -91,4 +99,4 @@ const quotes = {
   ]
 }
 
-export default quotes;
+export default characters;
