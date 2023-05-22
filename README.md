@@ -9,8 +9,8 @@
 - [ ] div with className "card"
 
 Child Elements:
-    - [ ] img with image as src and name as alt
-    - [ ] h2 for name
+- [ ] img with image as src and name as alt
+- [ ] h2 for name
 
 - [ ] Use props to pass character data to Character component 
 - [ ] Use destructuring to create variables 
