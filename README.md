@@ -5,7 +5,8 @@
 
 - [ ] Make a components folder inside the src folder
 
-- [ ] Create a Character component [] div with className "card"
+- [ ] Create a Character component 
+- [ ] div with className "card"
 
 Child Elements:
     - [ ] img with image as src and name as alt
