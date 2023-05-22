@@ -6,7 +6,7 @@ const Character = ({ character }) => {
     return (
         <div className="character">
             <h2>{name}</h2>
-            <img src={image}/>
+            <img src={image} alt={`Character portrait of ${name}`}/>
             <p>Race: {race}</p>
             <p>Status: {status}</p>
             <p>Weapon of choice: {weapon}</p> 

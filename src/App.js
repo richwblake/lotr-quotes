@@ -7,7 +7,7 @@ const App = () => {
   return (
     <div>
       <Header />
-      <CharacterList characters={characters.characters} />
+      <CharacterList characters={characters} />
     </div>
   );
 };
